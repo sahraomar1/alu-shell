@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name ".*" -or -name "*" -exec sh -c 'if [ ! "$(ls -A "{}")" ]; then echo $(basename "{}"); fi' \;
+find . -mindepth 1 -empty -printf '%f\n'
