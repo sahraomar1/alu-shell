@@ -1,2 +1,2 @@
-HBTN=89
-printenv
+#!/bin/bash
+HBTN=89 printenv
