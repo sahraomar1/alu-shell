@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e > 4-env_vars
+export HBTN=89
