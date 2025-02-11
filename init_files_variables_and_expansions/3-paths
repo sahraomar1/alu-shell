@@ -1,6 +1,2 @@
 #!/bin/bash
-
-# Count the number of directories in the PATH
-# Split PATH by ":" and count the entries, excluding empty ones
-echo $(echo $PATH | tr -s ":" "
-" | grep -c "^.*$")
+echo $(echo $PATH | tr -s ":" "\n" | grep -c "^.*$")
