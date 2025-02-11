@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\n\n# List all environment variables\nenv\n\n# List all local variables\ndeclare -p\n\n# List all functions\ndeclare -f' > 5-vars_and_functions
+echo -e '\nenv\n\n# \ndeclare -p\n\n# \ndeclare -f' > 5-vars_and_functions

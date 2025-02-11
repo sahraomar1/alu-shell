@@ -1,10 +1,8 @@
-#!/bin/bash
 
-# List all environment variables
 env
 
-# List all local variables
+# 
 declare -p
 
-# List all functions
+# 
 declare -f
