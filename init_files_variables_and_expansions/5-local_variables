@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '\nenv\n\n# \ndeclare -p\n\n# \ndeclare -f' > 5-vars_and_functions
+set
