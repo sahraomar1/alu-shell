@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e 'HBTN=89' > 4-env_vars
+echo -e 'HBTN=89\nenv' > 4-env_vars
