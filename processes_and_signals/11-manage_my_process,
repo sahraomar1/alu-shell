@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Script to be used with manage_my_process
+# Start/Stops/Restarts
 argv1=$1
 tmpfile="/var/run/my_process.pid"
 startLoop_n_createFile()
